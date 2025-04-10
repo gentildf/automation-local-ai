@@ -17,7 +17,7 @@ echo "🌐 Subindo a interface Web (Open WebUI)..."
 podman run -d --name open-webui \
   -p 3000:8080 \
   -v open-webui-data:/app/backend/data \
-  -e OLLAMA_API_BASE_URL=http://localhost:11434 \
+  -e OLLAMA_API_BASE_URL=http://host.containers.internal:11434 \
   ghcr.io/open-webui/open-webui:main
 
 echo ""
