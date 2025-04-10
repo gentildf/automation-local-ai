@@ -54,3 +54,7 @@ curl http://localhost:11434/api/generate -d '{
 ## 📄 License
 
 This project is licensed under the MIT License.
+
+## 📘 Documentation
+
+- [How to use the Web Interface (Open WebUI)](doc/web-usage.md)
